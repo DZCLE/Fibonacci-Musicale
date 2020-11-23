@@ -8,20 +8,25 @@
 */
 
 #Mona_Lisa {
-	height: 533.77px;
+	height: 600px;
 	width: auto;
+	align-items: center;
+	margin: auto;
 }
 
+/* #mona_Lisa_anchor{
+	align-items: center;
+} */
+
 #spiral {
-	margin: auto;
-	opacity: 0.075;
-	position: absolute;
-	height: 533.77px;
-	width: auto;
+	/* width: auto;
+	height: auto; */
+	opacity: 0.4;
+	/* position: absolute;	
 	top: 50%;
   	left: 50%;
-	transform: translate(-50%, -50%);
-	flex-shrink: 1;
+	transform: translate(-50%, -50%); */
+	
 }
 
 /* #fib_background {
@@ -31,8 +36,7 @@
 } */
 
  #fib_show {
-	position: relative;
-	/* text-align: center; */
+	position: relative;	
 	color: white;
 	display: flex;	
 }   
@@ -50,14 +54,17 @@
 	top: 50%;
   	left: 50%;
 	transform: translate(-50%, -50%);
+	font-weight: bolder;	
+	/* font-size: 1.17em; */
 }
+
 
 /* #display div {
 	display: flex;
 	justify-content: center;		
 } */
 
-#display > :first-child{
+#createPrompt > p{
 	font-size: 1.17em;
 	font-weight: bolder;
 	white-space: nowrap;
@@ -72,20 +79,20 @@
 }
 
 #sequenceBlock > p {
-	width: 60px;
-	font-weight: bolder;
-	padding: 10px;
+	width: 70px;
+	/* font-weight: bolder; */
+	/* padding: 10px; */
 	/* border-right: 1px solid white;	 */
 	text-align: center;
 }
 
-#sequenceBlock > p:hover{
-	color: red;
-}
+/* #sequenceBlock :hover{
+	color: #9bf1ff !important;
+} */
 
 
 #generate{
-	padding: 0 22.4px;
+	padding: 0 22.4px;	
 }
 
 /* #generate_submit{
@@ -102,19 +109,77 @@
 
 
 
-/* #fib_generator_block{
-	margin: 0 64px;
-	padding: 64px 0 32px;
-} */
+#fib_generator_block{
+	/* margin: 0 64px;
+	padding: 64px 0 32px; */
+	/* display: flex;
+	flex-flow: row; */
+}
 
 /* #fib_generator_window{
 	display: flex;
 	justify-content: space-between;
 } */
 
-#fib_principles {	
+#fib_principles {
+	
 }
 
+.fade_in {
+	animation: fadeIn 2s;
+	-webkit-animation: fadeIn 2s;
+	-moz-animation: fadeIn 2s;
+	-o-animation: fadeIn  2s;
+	-ms-animation: fadeIn  2s;
+	}
+	@keyframes fadeIn {
+	from {opacity:0;}
+	to {opacity:1;}
+	}
+	
+	@-moz-keyframes fadeIn {
+	from {opacity:0;}
+	to {opacity:1;}
+	}
+	
+	@-webkit-keyframes fadeIn {
+	from {opacity:0;}
+	to {opacity:1;}
+	}
+	
+	@-o-keyframes fadeIn {
+	from {opacity:0;}
+	to {opacity:1;}
+	}
+	
+	@-ms-keyframes fadeIn {
+	from {opacity:0;}
+	to {opacity:1;}
+	}
+
+
+	#violin_pic{
+		width: auto;
+		max-height: 375px;
+		align-self: center;
+	}
+	#gaga{		
+	}
+
+	#SWFLSO{
+		
+		margin: auto;
+	}
+
+	/* html {
+		scroll-behavior: smooth;
+	  } */
+
+
+
+
+
+/***********************************************************************************/
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
