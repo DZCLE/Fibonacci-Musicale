@@ -1,279 +1,200 @@
 <!DOCTYPE HTML>
 <html>
-	<head>
-		<title>Fibonacci Musicale - Sequence</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />		
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		<script type="text/javascript" src="assets/js/Zhang_create_fib_sequence.js"></script>
-	</head>
-	<body class="is-preload">
 
-		<!-- Wrapper -->
-		<div id="wrapper">
+<head>
+	<title>Fibonacci Musicale - Sequence</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	<script type="text/javascript" src="assets/js/Zhang_create_fib_sequence.js"></script>
+</head>
 
-			<!-- Header -->
-			<!-- Note: The "styleN" class (color) below should match that of the banner element. -->
-			<header id="header" class="alt style1">
-				<a href="index.html" class="logo"><strong>Fibonacci Musicale</strong> <span>by Dean Zhang</span></a>
-				<nav>
-					<a href="#menu">Menu</a>
-				</nav>
-			</header>
+<body class="is-preload">
 
-			<!-- Menu -->
-			<nav id="menu">
-				<ul class="links">
-					<li><a href="index.html">Home</a></li>
-					<li><a href="sequence.html">Fibonacci Sequence</a></li>
-					<li><a href="music.html">The Sequence and Music</a></li>
-					<li><a href="aboutme.html">About Me</a></li>
-				</ul>
-				<ul class="actions stacked">
-					<li><a href="contact.html" class="button primary fit">Contact Me</a></li>						
-				</ul>
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Header -->
+		<!-- Note: The "styleN" class (color) below should match that of the banner element. -->
+		<header id="header" class="alt style1">
+			<a href="index.html" class="logo"><strong>Fibonacci Musicale</strong> <span>by Dean Zhang</span></a>
+			<nav>
+				<a href="#menu">Menu</a>
 			</nav>
+		</header>
 
-			<!-- Banner -->
-			<!-- Note: The "styleN" class below should match that of the header element. -->
-			<section id="banner" class="style1">
+		<!-- Menu -->
+		<nav id="menu">
+			<ul class="links">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="sequence.html">Fibonacci Sequence</a></li>
+				<li><a href="music.html">The Sequence and Music</a></li>
+				<li><a href="aboutme.html">About Me</a></li>
+			</ul>
+			<ul class="actions stacked">
+				<li><a href="contact.html" class="button primary fit">Contact Me</a></li>
+			</ul>
+		</nav>
+
+		<!-- Banner -->
+		<!-- Note: The "styleN" class below should match that of the header element. -->
+		<section id="banner" class="style1">
+			<div class="inner">
+				<span class="image">
+					<img src="images/pic07.jpg" alt="" />
+				</span>
+				<header class="major">
+					<h1>Fibonacci Sequence</h1>
+				</header>
+				<div class="content">
+					<p>create the fibonacci sequence</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- Main -->
+		<div id="main">
+
+			<!-- One -->
+			<section id="one">
 				<div class="inner">
-					<span class="image">
-						<img src="images/pic07.jpg" alt="" />
-					</span>
 					<header class="major">
-						<h1>Fibonacci Sequence</h1>
+						<h2>Background Information</h2>
 					</header>
-					<div class="content">
-						<p>create the fibonacci sequence</p>
-					</div>
+					<p>The Fibonacci sequence appears in Indian mathematics in connection with Sanskrit prosody, as
+						pointed out by Parmanand Singh in 1986. In the Sanskrit poetic tradition, there was interest in
+						enumerating all patterns of long (L) syllables of 2 units duration, juxtaposed with short (S)
+						syllables of 1 unit duration. Counting the different patterns of successive L and S with a given
+						total duration results in the Fibonacci numbers. <br><br>
+						The sequence is named after Italian mathematician Leonardo of Pisa, later known as Fibonacci. In
+						his 1202 book Liber Abaci, Fibonacci introduced the sequence to Western European mathematics,
+						although the sequence had been described earlier in Indian mathematics, as early as 200 BC in
+						works by Pingala.<br><br>
+						Fibonacci numbers appear unexpectedly often in mathematics, so much so that there is an entire
+						journal dedicated to their study, the Fibonacci Quarterly. Applications of Fibonacci numbers
+						include computer algorithms such as the Fibonacci search technique and the Fibonacci heap data
+						structure, and graphs called Fibonacci cubes used for interconnecting parallel and distributed
+						systems.</p>
 				</div>
 			</section>
 
-			<!-- Main -->
-			<div id="main">
+			<!-- Two -->
+			<section id="two" class="spotlights">
 
-				<!-- One -->
-				<section id="one">
-					<div class="inner">
-						<header class="major">
-							<h2>Background Information</h2>
-						</header>
-						<p>The Fibonacci sequence appears in Indian mathematics in connection with Sanskrit prosody, as pointed out by Parmanand Singh in 1986. In the Sanskrit poetic tradition, there was interest in enumerating all patterns of long (L) syllables of 2 units duration, juxtaposed with short (S) syllables of 1 unit duration. Counting the different patterns of successive L and S with a given total duration results in the Fibonacci numbers. <br><br>
-						The sequence is named after Italian mathematician Leonardo of Pisa, later known as Fibonacci. In his 1202 book Liber Abaci, Fibonacci introduced the sequence to Western European mathematics, although the sequence had been described earlier in Indian mathematics, as early as 200 BC in works by Pingala.<br><br>
-						Fibonacci numbers appear unexpectedly often in mathematics, so much so that there is an entire journal dedicated to their study, the Fibonacci Quarterly. Applications of Fibonacci numbers include computer algorithms such as the Fibonacci search technique and the Fibonacci heap data structure, and graphs called Fibonacci cubes used for interconnecting parallel and distributed systems.</p>
-					</div>
-				</section>
-
-				<!-- Two -->
-				<section id="two" class="spotlights">
-						
+				<section id="fib_generator_block">
 					<!-- This is the left side of the block where the spiral picture and the results are showing -->
-					<section id="fib_generator_block">
-						<div id="fib_show" class="image" >							
-							<img src="images/Fibonacci_spiral.jpg" alt="The Spiral Pattern Generated by the Fibonacci Sequence" data-position="center center"  id="spiral" />							
-							<div id="result">								
-								<div id="display" class="fade_in">
-								
-								</div>
-							</div>										
-						</div>							
-						
-						<div class="content" id="fib_principles">
-							<div class="inner">
-								<header class="major">
-									<h3>Basic Principles</h3>
-								</header>
-								<p>F0 = 0<br>
-								F1 = F2 = 1<br>
-								.<br>	
-								.<br>
-								.<br>																	
-								Fn = Fn-1 + Fn-2</p>
-								<p><b>Let's Generate the Fibonacci Sequence: </b>(Please input an integer between 1 and 196417)</p>
-								
-								<form method="post" action="javascript:assets/js/hang_create_fib_sequence.generateSequence()" >
-									<!-- "max" -->
-									<div class="fields actions" >
-										<div class="field half">
-											<label for="max">Max Range</label>
-											<input type="number" name="max" id="max" size="5" min="1" max="196417" onKeyUp="if(this.value>196417){this.value='196417';}else if(this.value<1){this.value='1';}"/>
-										</div>	
-									</div>										
-									<!-- "submit" -->
-									<div id="generate_submit" class="actions">
-										<input type="submit" value="Generate the Sequence" class="button field half" id="generate" />
-												<!-- may consider adding a "reset" button -->
-												<!-- <input type="reset" value="Clear" /> -->
-												<!-- <p class="button" id="generate">Generate the Sequence</p> -->
-										<a href="music.html" class="button">Continue</a><br><br>
-									</div>
-								</form>
+					<div id="fib_show" class="image">
+						<img src="images/Fibonacci_spiral.jpg"
+							alt="The Spiral Pattern Generated by the Fibonacci Sequence" data-position="center center"
+							id="spiral" />
+						<div id="result">
+							<div id="display" class="fade_in">
+								<!-- the sequences calculated from user input is added and shown here -->
 							</div>
 						</div>
-					</section>
+					</div>
 
-						<!-- Three -->
-							<!-- <section id="three">
-								<div class="inner">
-									<header class="major">
-										<h2>Massa libero</h2>
-									</header>
-									<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
-									<ul class="actions">
-										<li><a href="generic.html" class="button next">Get Started</a></li>
-									</ul>
+					<!-- The right side of the block -->
+					<div class="content" id="fib_principles">
+						<div class="inner">
+							<header class="major">
+								<h3>Basic Principles</h3>
+							</header>
+							<p>F0 = 0<br>
+								F1 = F2 = 1<br>
+								.<br>
+								.<br>
+								.<br>
+								Fn = Fn-1 + Fn-2</p>
+							<p><b>Let's Generate the Fibonacci Sequence: </b>(Please input an integer between 1 and
+								196417)</p>
+
+							<form method="post"
+								action="javascript:assets/js/hang_create_fib_sequence.generateSequence()">
+								<!-- "max" -->
+								<div class="fields actions">
+									<div class="field half">
+										<label for="max">Max Range</label>
+										<input type="number" name="max" id="max" size="5" min="1" max="196417"
+											onKeyUp="if(this.value>196417){this.value='196417';}else if(this.value<1){this.value='1';}" />
+									</div>
 								</div>
-							</section> -->
-
+								<!-- "submit" -->
+								<div id="generate_submit" class="actions">
+									<input type="submit" value="Generate the Sequence" class="button field half"
+										id="generate" />
+									<!-- may consider adding a "reset" button -->
+									<!-- <input type="reset" value="Clear" /> -->
+									<!-- <p class="button" id="generate">Generate the Sequence</p> -->
+									<a href="music.html" class="button">Continue</a><br><br>
+								</div>
+							</form>
+						</div>
 					</div>
 				</section>
+			</section>
+		</div>
+	
 
-				<!-- Contact -->
-				<section id="contact">
-						<div class="inner">							
-							<form method="post" action="mailto:yxz411@case.edu" enctype="text/plain">
-								<div class="fields">
-									<div class="field half">
-										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
-									</div>
-									<div class="field half">
-										<label for="email">Email</label>
-										<input type="text" name="email" id="email" />
-									</div>
-									<div class="field">
-										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="6"></textarea>
-									</div>
-								</div>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" class="primary" /></li>
-									<li><input type="reset" value="Clear" /></li>
-								</ul>
-							</form>														
+		<!-- Contact -->
+		<section id="contact">
+			<div class="inner">
+				<form method="post" action="mailto:yxz411@case.edu" enctype="text/plain">
+					<div class="fields">
+						<div class="field half">
+							<label for="name">Name</label>
+							<input type="text" name="name" id="name" />
 						</div>
-				</section>
-
-				<!-- Footer -->
-					<footer id="footer">
-						<div class="inner">
-							<ul class="icons">
-								<li><a href="https://www.linkedin.com/in/deanzhangtech/" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>							
-								<li><a href="https://github.com/DZCLE" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								<li><a href="https://www.facebook.com/deanivories" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-							</ul>
-							<ul class="copyright">
-								<li>&copy; Dean Zhang, 2020</li>
-								<li>Template Design: HTML5 UP, free for personal and commercial use under the CCA 3.0 license</li>
-							</ul>
+						<div class="field half">
+							<label for="email">Email</label>
+							<input type="text" name="email" id="email" />
 						</div>
-					</footer>
-
+						<div class="field">
+							<label for="message">Message</label>
+							<textarea name="message" id="message" rows="6"></textarea>
+						</div>
+					</div>
+					<ul class="actions">
+						<li><input type="submit" value="Send Message" class="primary" /></li>
+						<li><input type="reset" value="Clear" /></li>
+					</ul>
+				</form>
 			</div>
+		</section>
 
-		<!-- Scripts -->
-		<script src="assets/js/jquery.min.js"></script>
-		<script src="assets/js/jquery.scrolly.min.js"></script>
-		<script src="assets/js/jquery.scrollex.min.js"></script>
-		<script src="assets/js/browser.min.js"></script>
-		<script src="assets/js/breakpoints.min.js"></script>
-		<script src="assets/js/util.js"></script>
-		<script src="assets/js/main.js"></script>
-		<script src="assets/js/Zhang_create_fib_sequence.js"></script>
-		<script src="assets/js/Zhang_focus_scroll.js"></script>
-			<!-- <script>
-				//write JavaScript here
-				// document.addEventListener("DOMContentLoaded", e => {
-				// 	document.getElementById("generate").addEventListener("click", generateSequence)
-				// });
+		<!-- Footer -->
+		<footer id="footer">
+			<div class="inner">
+				<ul class="icons">
+					<li><a href="https://www.linkedin.com/in/deanzhangtech/"
+							class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+					<li><a href="https://github.com/DZCLE" class="icon brands alt fa-github"><span
+								class="label">GitHub</span></a></li>
+					<li><a href="https://www.facebook.com/deanivories" class="icon brands alt fa-facebook-f"><span
+								class="label">Facebook</span></a></li>
+				</ul>
+				<ul class="copyright">
+					<li>&copy; Dean Zhang, 2020</li>
+					<li>Template Design: HTML5 UP, free for personal and commercial use under the CCA 3.0 license</li>
+				</ul>
+			</div>
+		</footer>
 
-				
+	</div>
 
-				
-				document.addEventListener('DOMContentLoaded', () => {
-					const generate = document.getElementById('generate');
-					generate.addEventListener('click', (event) =>{
-						let maxRange = event.currentTarget.value
-						event.preventDefault();
-					})				
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+	<script src="assets/js/Zhang_create_fib_sequence.js"></script>
+	<script src="assets/js/Zhang_focus_scroll.js"></script>
+	
+</body>
 
-				
-				// })
-				
-				function generateSequence(){
-					let display = document.getElementById("display");
-					let max = document.getElementById('max').value;									
-				
-					display.innerHTML = '';
-					
-					let div = document.createElement("div");
-					div.id = "createPrompt";
-					div.class = "fade_in";
-					let p = document.createElement ("p");					
-					p.innerText = "The Fibonacci Sequence Up to: " + max;
-					div.appendChild(p);
-					display.appendChild(div);
-					
-					sequenceBlock = document.createElement("div");					
-					let fib = getFib(parseInt(max));
-					for (let i = 0; i < fib.length; i++){
-						let	ele = document.createElement("p");
-						ele.innerText = fib[i];
-						sequenceBlock.appendChild(ele);
-						// if (i < fib.length-1){
-						// 	ele = document.createElement("p");
-						// 	ele.innerText = '|';						
-						// 	sequenceBlock.appendChild(ele);
-						// }						
-					}
-					sequenceBlock.id = "sequenceBlock";					
-					display.insertAdjacentElement('beforeend', sequenceBlock);
-					
-					
-					// ele = document.createElement("p");
-					// ele.innerText = "1";
-					// display.appendChild(ele);
-					
-					// ele = document.createElement("p");
-					// ele.innerText = "2";					
-					// display.appendChild(ele);
-				}
-
-				function getFib(fibNum){
-					let fibList = [];
-					while (true) {
-						// if (FibNum <= 0) {
-						// 	fibList.push(0);
-						// }
-						//When fibNum is bigger than 1
-						if (fibNum >= 1) {
-							let firstNum = 0;
-							let secondNum = 1;
-							let thirdNum;
-							fibList.push(firstNum);
-							fibList.push(secondNum);
-							//sum of the previous two numbers and assign it to a third number in each loop and then move by one number down to the right
-							for (let i = 0; i <= fibNum; i++) {
-								thirdNum = firstNum + secondNum;
-								//Stop printing before the third number is bigger than fibNum
-								if (thirdNum > fibNum) {
-									break;
-								}
-								//Print "each" thirdNum in each loop
-								fibList.push(thirdNum);
-								//Move by one number to the right BEFORE each loop
-								firstNum = secondNum;
-								secondNum = thirdNum;
-								}							
-							}
-						break;
-					}
-					return fibList;
-				}
-
-				
-			</script> -->
-	</body>
 </html>

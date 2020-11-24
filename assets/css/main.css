@@ -3,7 +3,6 @@
 
 /* Zhang Edits
 ***************************************************************** */
-
 #Mona_Lisa {
 	height: 600px;
 	width: auto;
@@ -11,39 +10,25 @@
 	margin: auto;
 }
 
-/* #mona_Lisa_anchor{
-	align-items: center;
-} */
-
-#spiral {
-	/* width: auto;
-	height: auto; */
-	opacity: 0.4;
-	/* position: absolute;	
-	top: 50%;
-  	left: 50%;
-	transform: translate(-50%, -50%); */	
+#violin_pic{
+	width: auto;
+	max-height: 375px;
+	align-self: center;
 }
 
-/* #fib_background {
-	height: 533.77px;
-	width:auto;
-	flex-grow: 1;
-} */
+#SWFLSO{
+	margin: auto;
+}
 
- #fib_show {
+#spiral {
+	opacity: 0.4;	
+}
+
+#fib_show {
 	position: relative;	
 	color: white;
 	display: flex;	
 }   
-
-/* #fib_prompt{
-	white-space: nowrap;
-	position: absolute;
-	top: 38.2%;
-  	left: 50%;
-	transform: translate(-50%, -50%);
-} */
 
 #display {
 	position: absolute;
@@ -51,14 +36,7 @@
   	left: 50%;
 	transform: translate(-50%, -50%);
 	font-weight: bolder;	
-	/* font-size: 1.17em; */
 }
-
-
-/* #display div {
-	display: flex;
-	justify-content: center;		
-} */
 
 #createPrompt > p{
 	font-size: 1.17em;
@@ -67,64 +45,30 @@
 }
 
 #sequenceBlock {
-	display: flex;
-	/* flex-direction: row; */
-	flex-wrap: wrap;
-	/* justify-content: space-around; */
+	display: flex;	
+	flex-wrap: wrap;	
 	font-weight: bolder;	
 }
 
 #sequenceBlock > p {
-	width: 70px;
-	/* font-weight: bolder; */
-	/* padding: 10px; */
-	/* border-right: 1px solid white;	 */
+	width: 70px;	
 	text-align: center;
 }
 
-/* #sequenceBlock :hover{
-	color: #9bf1ff !important;
-} */
-
-
 #generate{
 	padding: 0 22.4px;	
-}
-
-/* #generate_submit{
-	display: block;	
-} */
-
-#generate_submit > a{
-	/* padding-right: 50px; */
 }
 
 #id{
 	color: white;
 }
 
-#fib_generator_block{
-	/* margin: 0 64px;
-	padding: 64px 0 32px; */
-	/* display: flex;
-	flex-flow: row; */
-}
-
-/* #fib_generator_window{
-	display: flex;
-	justify-content: space-between;
-} */
-
-#fib_principles {
-	
-}
-
 .fade_in {
 	animation: fadeIn 2s;
 	-webkit-animation: fadeIn 2s;
 	-moz-animation: fadeIn 2s;
-	-o-animation: fadeIn  2s;
-	-ms-animation: fadeIn  2s;
+	-o-animation: fadeIn 2s;
+	-ms-animation: fadeIn 2s;
 	}
 	@keyframes fadeIn {
 	from {opacity:0;}
@@ -150,26 +94,6 @@
 	from {opacity:0;}
 	to {opacity:1;}
 	}
-
-
-#violin_pic{
-	width: auto;
-	max-height: 375px;
-	align-self: center;
-}
-
-#gaga{		
-}
-
-#SWFLSO{
-	margin: auto;
-}
-
-/* html {
-	scroll-behavior: smooth;
-} */
-
-
 
 
 
