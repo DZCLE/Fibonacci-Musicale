@@ -23,7 +23,7 @@ function generateSequence() {
     display.innerHTML = ''; //Empty the previous sequence shown on the screen
 
     let parent = display.parentNode;
-    parent.removeChild(display); //remove the result from DOM
+    parent.removeChild(display); //remove the result from DOM - only from DOM
 
     let div = document.createElement("div");
     div.id = "createPrompt";
@@ -44,7 +44,16 @@ function generateSequence() {
     sequenceBlock.id = "sequenceBlock";
     display.insertAdjacentElement('beforeend', sequenceBlock);
 
-    parent.appendChild(display); //append the result back to DOM to be shown
+    parent.appendChild(display); //append the result back to DOM to be shown with the "fade-in" effect
+
+    const scrollUpDiv = document.getElementById('fib_show'); //get the "showing" element
+    const header = document.getElementById('header');
+    //(1)the distance, a negative px, between the top of the element and the height of the top banner
+    //(2)how far, a positive px, has the user scrolled down 
+    //(3)the amount how far the user should have scroll down to get the top of the element to show on the screen (minus the height of the top banner)  
+    const topOfDiv = scrollUpDiv.getBoundingClientRect().top + window.pageYOffset - header.getBoundingClientRect().height;
+    window.scrollTo({ top: topOfDiv, behavior: 'smooth' });
+
 
 }
 
