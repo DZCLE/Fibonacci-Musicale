@@ -22,8 +22,8 @@
 
 #spiral {
 	opacity: 0.4;
-	width: relative;
-	height: inherit;
+	width: 100%;
+	height: 100%;
 }
 
 #fib_show {
@@ -92,14 +92,8 @@
 	}
 	
 	@-webkit-keyframes fadeIn {
-		0% {
-			opacity: 0;
-			-webkit-transform: translateY(40px);
-		}
-		100% {
-			opacity: 1;
-			-webkit-transform: translateY(0);
-		}
+		0% {opacity:0;}
+		100% {opacity:1;}
 	}
 	
 	@-o-keyframes fadeIn {
