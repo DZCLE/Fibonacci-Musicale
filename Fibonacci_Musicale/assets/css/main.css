@@ -21,7 +21,7 @@
 }
 
 #spiral {
-	opacity: 0.4;	
+	opacity: 0.4;
 }
 
 #fib_show {
@@ -55,8 +55,15 @@
 	text-align: center;
 }
 
+#generate_submit{
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+
 #generate{
-	padding: 0 22.4px;	
+	margin-right: 5px;
+	margin-bottom: 5px;
 }
 
 #id{
