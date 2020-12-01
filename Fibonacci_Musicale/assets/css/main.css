@@ -12,8 +12,14 @@
 
 #violin_pic{
 	width: auto;
-	max-height: 375px;
+	/* max-height: 375px; */
+	max-width: 500px;
+	width: 100%;
 	align-self: center;
+}
+
+#TE{
+	
 }
 
 #SWFLSO{
