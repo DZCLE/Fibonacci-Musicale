@@ -22,6 +22,8 @@
 
 #spiral {
 	opacity: 0.4;
+	width: relative;
+	height: inherit;
 }
 
 #fib_show {
