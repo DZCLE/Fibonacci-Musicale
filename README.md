@@ -2,7 +2,7 @@
 
 ![HomePage](Fibonacci_Musicale/images/Home_ScrSht.png)
 
-***Fibonacci Musicale*** provides you a journey to discover the relationship between the famous Fibonacci Sequence and arts.
+***Fibonacci Musicale*** provides you a journey to discover the relationship between the famous Fibonacci Sequence and art.
 
 ## **The Fibonacci Sequence**
 The first component of the web-app briefly discuses the historic background and principles of generating the Fibonacci Sequence. The user may input an integer up to which the sequence will be generated.  The challenges of this segment of the web-app lie not only in writing the code for generating the Fibonacci Sequence but also displaying the result back to the multi-layered webpage with ideal fade-in and scrolling styles with Responsive Web Design. 
